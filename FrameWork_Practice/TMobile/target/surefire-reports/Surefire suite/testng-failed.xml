@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="homeTest.ShoppingCardTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+          <include name="setShoppingCardTest"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- homeTest.ShoppingCardTest -->
+      <class name="homeTest.SearchBoxTest">
+        <methods>
+          <include name="init"/>
+          <include name="setSearchBoxTest"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- homeTest.SearchBoxTest -->
+      <class name="homeTest.AccountTest">
+        <methods>
+          <include name="SetAccountLogInTest"/>
+          <include name="init"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- homeTest.AccountTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

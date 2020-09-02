@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="T_Mobile Automation Test" parallel="false">
+    <parameter name="url" value="https://www.t-mobile.com/"/>
+    <parameter name="platform" value="mac"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+
+    <test name="tMobile Home">
+        <classes>
+<!--            <class name="homeTest.AccountTest"></class>-->
+<!--            <class name="homeTest.SearchBoxTest"></class>-->
+<!--            <class name="homeTest.ShoppingCardTest"></class>-->
+        </classes>
+    </test>
+
+
+</suite>

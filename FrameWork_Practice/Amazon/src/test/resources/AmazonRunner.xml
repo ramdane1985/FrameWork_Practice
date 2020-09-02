@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Amazon Automation Test" parallel="false">
+    <parameter name="url" value="https://www.amazon.com/"/>
+    <parameter name="platform" value="mac"></parameter>
+    <parameter name="browserName" value="chrome"></parameter>
+
+    <test name="Amazon Home">
+        <classes>
+
+            <class name="homeTest.HomePageTest"></class>
+            <class name="homeTest.BestSellerTest"></class>
+<!--            <class name="accountTest.SigningClassTest"></class>-->
+<!--            <class name="accountTest.CreateAccountTest"></class>-->
+<!--            <class name="accountTest.CreateAccountActionTest"></class>-->
+<!--            <class name="homeTest.TodayDealTest"></class>-->
+<!--            <class name="homeTest.CustomerServiceTest"></class>-->
+<!--            <class name="homeTest.NewReleasesTest"></class>-->
+<!--            <class name="homeTest.FindAGiftTest"></class>-->
+<!--            <class name="homeTest.WholeFoodsTest"></class>-->
+<!--            <class name="homeTest.GiftCardsTest"></class>-->
+<!--            <class name="homeTest.FreeShippingTest"></class>-->
+<!--            <class name="homeTest.RegistryTest"></class>-->
+<!--            <class name="homeTest.SellClassTest"></class>-->
+<!--            <class name="homeTest.CouponsTest"></class>-->
+<!--            <class name="homeTest.AmazonBasicsTest"></class>-->
+<!--            <class name="homeTest.FoundItOnAmazonTest"></class>-->
+
+
+
+            
+        </classes>
+    </test>
+
+
+</suite>

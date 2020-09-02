@@ -1,0 +1,17 @@
+homeTest/AmazonBasicsTest.class
+accountTest/CreateAccountTest.class
+homeTest/FindAGiftTest.class
+homeTest/NewReleasesTest.class
+homeTest/HomePageTest.class
+homeTest/FreeShippingTest.class
+homeTest/GiftCardsTest.class
+homeTest/BestSellerTest.class
+accountTest/SigningClassTest.class
+homeTest/FoundItOnAmazonTest.class
+homeTest/CustomerServiceTest.class
+homeTest/CouponsTest.class
+homeTest/RegistryTest.class
+homeTest/TodayDealTest.class
+homeTest/SellClassTest.class
+homeTest/WholeFoodsTest.class
+accountTest/CreateAccountActionTest.class

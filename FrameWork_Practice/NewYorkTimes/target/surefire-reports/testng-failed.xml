@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [New York Times Automation Test]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="browserName" value="chrome"/>
+  <parameter name="url" value="https://www.newyorktimes.com/"/>
+  <parameter name="platform" value="mac"/>
+  <test thread-count="5" name="New York Times Home(failed)" verbose="0">
+    <classes>
+      <class name="homeTest.SearchClassTest">
+        <methods>
+          <include name="setSearchButtonTest"/>
+          <include name="init"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- homeTest.SearchClassTest -->
+    </classes>
+  </test> <!-- New York Times Home(failed) -->
+</suite> <!-- Failed suite [New York Times Automation Test] -->

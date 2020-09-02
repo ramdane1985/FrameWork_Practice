@@ -1,0 +1,193 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 116, Failures: 46, Errors: 0, Skipped: 70, Time elapsed: 0.733 s <<< FAILURE! - in TestSuite
+homeTest.BestSellerTest.setUp  Time elapsed: 0.308 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+homeTest.BestSellerTest.cleanUp  Time elapsed: 0.004 s  <<< FAILURE!
+java.lang.NullPointerException
+
+homeTest.BestSellerTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+homeTest.BestSellerTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+homeTest.CustomerServiceTest.setUp  Time elapsed: 0.002 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+homeTest.CustomerServiceTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+homeTest.RegistryTest.setUp  Time elapsed: 0.002 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+homeTest.RegistryTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+homeTest.SellClassTest.setUp  Time elapsed: 0.002 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+homeTest.SellClassTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+homeTest.FindAGiftTest.setUp  Time elapsed: 0.002 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+homeTest.FindAGiftTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+homeTest.AmazonBasicsTest.setUp  Time elapsed: 0.002 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+homeTest.AmazonBasicsTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+homeTest.FreeShippingTest.setUp  Time elapsed: 0.002 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+homeTest.FreeShippingTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+homeTest.TodayDealTest.setUp  Time elapsed: 0.002 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+homeTest.TodayDealTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+homeTest.CouponsTest.setUp  Time elapsed: 0.002 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+homeTest.CouponsTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+homeTest.NewReleasesTest.setUp  Time elapsed: 0.001 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+homeTest.NewReleasesTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+homeTest.GiftCardsTest.setUp  Time elapsed: 0.002 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+homeTest.GiftCardsTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+homeTest.HomePageTest.setUp  Time elapsed: 0.002 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+homeTest.HomePageTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+homeTest.FoundItOnAmazonTest.setUp  Time elapsed: 0.002 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+homeTest.FoundItOnAmazonTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+homeTest.WholeFoodsTest.setUp  Time elapsed: 0.003 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+homeTest.WholeFoodsTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+accountTest.SigningClassTest.setUp  Time elapsed: 0.002 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+accountTest.SigningClassTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+accountTest.SigningClassTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+accountTest.SigningClassTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+accountTest.SigningClassTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+accountTest.CreateAccountActionTest.setUp  Time elapsed: 0.002 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+accountTest.CreateAccountActionTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+accountTest.CreateAccountActionTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+accountTest.CreateAccountTest.setUp  Time elapsed: 0.002 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+accountTest.CreateAccountTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+accountTest.CreateAccountTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+accountTest.CreateAccountTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+accountTest.CreateAccountTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+accountTest.CreateAccountTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+accountTest.CreateAccountTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+
+accountTest.CreateAccountTest.cleanUp  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+

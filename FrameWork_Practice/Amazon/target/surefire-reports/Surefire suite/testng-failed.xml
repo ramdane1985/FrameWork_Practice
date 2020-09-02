@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="homeTest.FoundItOnAmazonTest">
+        <methods>
+          <include name="init"/>
+          <include name="setFoundItOnAmazonTest"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- homeTest.FoundItOnAmazonTest -->
+      <class name="homeTest.HomePageTest">
+        <methods>
+          <include name="init"/>
+          <include name="setUp"/>
+          <include name="setHomePageTest"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- homeTest.HomePageTest -->
+      <class name="homeTest.BestSellerTest">
+        <methods>
+          <include name="setBestSellerTest"/>
+          <include name="setBestsellervalidationTest"/>
+          <include name="init"/>
+          <include name="setUp"/>
+          <include name="testBabyTest"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- homeTest.BestSellerTest -->
+      <class name="homeTest.WholeFoodsTest">
+        <methods>
+          <include name="setWholefoodsTest"/>
+          <include name="init"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- homeTest.WholeFoodsTest -->
+      <class name="homeTest.NewReleasesTest">
+        <methods>
+          <include name="setNewReleaseTest"/>
+          <include name="init"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- homeTest.NewReleasesTest -->
+      <class name="homeTest.FreeShippingTest">
+        <methods>
+          <include name="setFreeShippingTest"/>
+          <include name="setUp"/>
+          <include name="init"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- homeTest.FreeShippingTest -->
+      <class name="accountTest.CreateAccountTest">
+        <methods>
+          <include name="setAccountButtonTest"/>
+          <include name="setVerificationEmail"/>
+          <include name="setAccountTest"/>
+          <include name="setCustomerEmailTest"/>
+          <include name="setCustomerNameTest"/>
+          <include name="init"/>
+          <include name="setPassWord1"/>
+          <include name="setPassWord2"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- accountTest.CreateAccountTest -->
+      <class name="accountTest.SigningClassTest">
+        <methods>
+          <include name="setValidationText"/>
+          <include name="setUp"/>
+          <include name="setContinueButton"/>
+          <include name="setFieldTest"/>
+          <include name="setSigningTest"/>
+          <include name="cleanUp"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- accountTest.SigningClassTest -->
+      <class name="homeTest.TodayDealTest">
+        <methods>
+          <include name="setTodayDealTest"/>
+          <include name="init"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- homeTest.TodayDealTest -->
+      <class name="homeTest.CouponsTest">
+        <methods>
+          <include name="setCouponsTest"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- homeTest.CouponsTest -->
+      <class name="accountTest.CreateAccountActionTest">
+        <methods>
+          <include name="setSigningActionTest"/>
+          <include name="init"/>
+          <include name="setSigningActionTest2"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- accountTest.CreateAccountActionTest -->
+      <class name="homeTest.FindAGiftTest">
+        <methods>
+          <include name="setFindAGiftTest"/>
+          <include name="init"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- homeTest.FindAGiftTest -->
+      <class name="homeTest.RegistryTest">
+        <methods>
+          <include name="init"/>
+          <include name="setUp"/>
+          <include name="setRegistryTest"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- homeTest.RegistryTest -->
+      <class name="homeTest.GiftCardsTest">
+        <methods>
+          <include name="init"/>
+          <include name="setGiftCardsTest"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- homeTest.GiftCardsTest -->
+      <class name="homeTest.SellClassTest">
+        <methods>
+          <include name="init"/>
+          <include name="setUp"/>
+          <include name="setSellClassTest"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- homeTest.SellClassTest -->
+      <class name="homeTest.AmazonBasicsTest">
+        <methods>
+          <include name="init"/>
+          <include name="setAmazonBasicsTest"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- homeTest.AmazonBasicsTest -->
+      <class name="homeTest.CustomerServiceTest">
+        <methods>
+          <include name="setCustomerServiceTest"/>
+          <include name="init"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- homeTest.CustomerServiceTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

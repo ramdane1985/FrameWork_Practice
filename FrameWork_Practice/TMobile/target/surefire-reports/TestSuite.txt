@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 12, Failures: 6, Errors: 0, Skipped: 6, Time elapsed: 0.493 s <<< FAILURE! - in TestSuite
+homeTest.ShoppingCardTest.setUp  Time elapsed: 0.235 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+homeTest.ShoppingCardTest.cleanUp  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.NullPointerException
+
+homeTest.AccountTest.setUp  Time elapsed: 0.009 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+homeTest.AccountTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
+homeTest.SearchBoxTest.setUp  Time elapsed: 0.003 s  <<< FAILURE!
+org.testng.TestNGException: 
+
+Parameter 'url' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+
+
+homeTest.SearchBoxTest.cleanUp  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+
