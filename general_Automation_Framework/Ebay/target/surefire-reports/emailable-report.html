@@ -1,0 +1,195 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">TestSuite</th></tr>
+<tr><td><a href="#t0">Ebay Home</a></td><td class="num">11</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">264,100</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TestSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Ebay Home &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">regressionTest.BrokenLinksTest</td><td><a href="#m0">afterEachTestMethod</a></td><td rowspan="1">1599102854189</td><td rowspan="1">30</td></tr><tr><th colspan="4">Ebay Home &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">regressionTest.BrokenLinksTest</td><td><a href="#m1">ebayLinksActivlinksTest</a></td><td rowspan="1">1599102711456</td><td rowspan="1">142733</td></tr><tr class="failedodd"><td rowspan="2">regressionTest.DragAndDropClassTest</td><td><a href="#m2">setDragAndDropsTest</a></td><td rowspan="1">1599102682867</td><td rowspan="1">10049</td></tr><tr class="failedodd"><td><a href="#m3">setDragAndDropsValidationTest</a></td><td rowspan="1">1599102696779</td><td rowspan="1">10054</td></tr><tr><th colspan="4">Ebay Home &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">homeTest.HomeClassTest</td><td><a href="#m4">setLogoSignTest</a></td><td rowspan="1">1599102612215</td><td rowspan="1">2760</td></tr><tr class="passedeven"><td><a href="#m5">setLogoSignValidationTest</a></td><td rowspan="1">1599102617223</td><td rowspan="1">5848</td></tr><tr class="passedodd"><td rowspan="6">homeTest.MotorsClassTest</td><td><a href="#m6">setBoatTest</a></td><td rowspan="1">1599102625238</td><td rowspan="1">7351</td></tr><tr class="passedodd"><td><a href="#m7">setBoatVerificationTest</a></td><td rowspan="1">1599102634790</td><td rowspan="1">7347</td></tr><tr class="passedodd"><td><a href="#m8">setClassicTest</a></td><td rowspan="1">1599102644262</td><td rowspan="1">6924</td></tr><tr class="passedodd"><td><a href="#m9">setClassicVerificationTest</a></td><td rowspan="1">1599102653704</td><td rowspan="1">6981</td></tr><tr class="passedodd"><td><a href="#m10">setMotorCycleVerificationTest</a></td><td rowspan="1">1599102663444</td><td rowspan="1">7386</td></tr><tr class="passedodd"><td><a href="#m11">setMotorCyclesTest</a></td><td rowspan="1">1599102673023</td><td rowspan="1">7830</td></tr><tr class="passedeven"><td rowspan="1">regressionTest.IFrameClassTest</td><td><a href="#m12">setIFrameTest</a></td><td rowspan="1">1599102872984</td><td rowspan="1">193</td></tr><tr class="passedodd"><td rowspan="2">regressionTest.NewWindowClassTest</td><td><a href="#m13">newWindowTest</a></td><td rowspan="1">1599102856593</td><td rowspan="1">5985</td></tr><tr class="passedodd"><td><a href="#m14">newWindowVerificationTest</a></td><td rowspan="1">1599102864653</td><td rowspan="1">6199</td></tr></tbody>
+</table>
+<h2>Ebay Home</h2><h3 id="m0">regressionTest.BrokenLinksTest#afterEachTestMethod</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>[TestResult name=ebayLinksActivlinksTest status=FAILURE method=BrokenLinksTest.ebayLinksActivlinksTest()[pri:40, instance:regressionTest.BrokenLinksTest@55ca8de8] output=BrokenLinksTest: ebay Links Activlinks Test]</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=85.0.4183.83)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MacBook-Pro-2.home&apos;, ip: &apos;fd4b:8d38:69ba:1:d141:bba4:860f:aef5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/wz/dgqm41w90yg...}, goog:chromeOptions: {debuggerAddress: localhost:54892}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3d5e65625682fe50bcab17b43d8ec130
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at base.CommonAPI.captureScreenshot(CommonAPI.java:101)
+	at base.CommonAPI.afterEachTestMethod(CommonAPI.java:78)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 41 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">regressionTest.BrokenLinksTest#ebayLinksActivlinksTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">BrokenLinksTest: ebay Links Activlinks Test</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=85.0.4183.83)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MacBook-Pro-2.home&apos;, ip: &apos;fd4b:8d38:69ba:1:d141:bba4:860f:aef5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/wz/dgqm41w90yg...}, goog:chromeOptions: {debuggerAddress: localhost:54892}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 3d5e65625682fe50bcab17b43d8ec130
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.getAttribute(RemoteWebElement.java:134)
+	at regression.BrokenLinks.linksbroken(BrokenLinks.java:47)
+	at regressionTest.BrokenLinksTest.ebayLinksActivlinksTest(BrokenLinksTest.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+... Removed 36 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">regressionTest.DragAndDropClassTest#setDragAndDropsTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">DragAndDropClassTest: set Drag And Drops Test</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MacBook-Pro-2.home&apos;, ip: &apos;fd4b:8d38:69ba:1:d141:bba4:860f:aef5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;14.0.1&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:332)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+	at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)
+	at java.base/java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:647)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+	at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)
+	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)
+	at org.openqa.selenium.json.Json.toJson(Json.java:42)
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at regression.DragAndDropClass.setDragAndDrops(DragAndDropClass.java:34)
+	at regressionTest.DragAndDropClassTest.setDragAndDropsTest(DragAndDropClassTest.java:21)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MacBook-Pro-2.home&apos;, ip: &apos;fd4b:8d38:69ba:1:d141:bba4:860f:aef5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;14.0.1&apos;
+Driver info: driver.version: RemoteWebDriver
+		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:279)
+		at org.openqa.selenium.json.Json.toJson(Json.java:44)
+		... 41 more
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:328)
+	... 53 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;BANK&apos;)]&quot;}
+  (Session info: chrome=85.0.4183.83)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MacBook-Pro-2.home&apos;, ip: &apos;fd4b:8d38:69ba:1:d141:bba4:860f:aef5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/wz/dgqm41w90yg...}, goog:chromeOptions: {debuggerAddress: localhost:54642}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a7d8fc1d9c835157576185b9e393f255
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;BANK&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
+	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
+	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
+	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
+	... 58 more
+... Removed 41 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">regressionTest.DragAndDropClassTest#setDragAndDropsValidationTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">DragAndDropClassTest: set Drag And Drops Validation Test<br/>DragAndDropClassTest: set Drag And Drops Test</div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MacBook-Pro-2.home&apos;, ip: &apos;fd4b:8d38:69ba:1:d141:bba4:860f:aef5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;14.0.1&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:332)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:155)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+	at org.openqa.selenium.json.JsonOutput.lambda$null$21(JsonOutput.java:168)
+	at java.base/java.util.LinkedHashMap$LinkedValues.forEach(LinkedHashMap.java:647)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$22(JsonOutput.java:168)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+	at org.openqa.selenium.json.JsonOutput.lambda$null$23(JsonOutput.java:177)
+	at com.google.common.collect.SingletonImmutableBiMap.forEach(SingletonImmutableBiMap.java:65)
+	at org.openqa.selenium.json.JsonOutput.lambda$new$24(JsonOutput.java:176)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:264)
+	at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:255)
+	at org.openqa.selenium.json.Json.toJson(Json.java:42)
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:227)
+	at org.openqa.selenium.remote.http.AbstractHttpCommandCodec.encode(AbstractHttpCommandCodec.java:117)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:152)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+	at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+	at regression.DragAndDropClass.setDragAndDrops(DragAndDropClass.java:34)
+	at regressionTest.DragAndDropClassTest.setDragAndDropsTest(DragAndDropClassTest.java:21)
+	at regressionTest.DragAndDropClassTest.setDragAndDropsValidationTest(DragAndDropClassTest.java:27)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	Suppressed: org.openqa.selenium.json.JsonException: Attempting to close incomplete json stream
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MacBook-Pro-2.home&apos;, ip: &apos;fd4b:8d38:69ba:1:d141:bba4:860f:aef5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;14.0.1&apos;
+Driver info: driver.version: RemoteWebDriver
+		at org.openqa.selenium.json.JsonOutput.close(JsonOutput.java:279)
+		at org.openqa.selenium.json.Json.toJson(Json.java:44)
+		... 42 more
+	at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:328)
+	... 54 more
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;BANK&apos;)]&quot;}
+  (Session info: chrome=85.0.4183.83)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MacBook-Pro-2.home&apos;, ip: &apos;fd4b:8d38:69ba:1:d141:bba4:860f:aef5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.15.6&apos;, java.version: &apos;14.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: /var/folders/wz/dgqm41w90yg...}, goog:chromeOptions: {debuggerAddress: localhost:54760}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2d7fdf236553097c42c72ad5e77f616b
+*** Element info: {Using=xpath, value=//a[contains(text(),&apos;BANK&apos;)]}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.interactions.PointerInput$Origin.asArg(PointerInput.java:204)
+	at org.openqa.selenium.interactions.PointerInput$Move.encode(PointerInput.java:155)
+	at org.openqa.selenium.interactions.Sequence.encode(Sequence.java:75)
+	at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:84)
+	... 59 more
+... Removed 41 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">homeTest.HomeClassTest#setLogoSignTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">HomeClassTest: set Logo Sign Test</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">homeTest.HomeClassTest#setLogoSignValidationTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">HomeClassTest: set Logo Sign Validation Test<br/>HomeClassTest: set Logo Sign Test</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">homeTest.MotorsClassTest#setBoatTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">MotorsClassTest: set Boat Test</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">homeTest.MotorsClassTest#setBoatVerificationTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">MotorsClassTest: set Boat Verification Test<br/>MotorsClassTest: set Boat Test</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">homeTest.MotorsClassTest#setClassicTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">MotorsClassTest: set Classic Test</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">homeTest.MotorsClassTest#setClassicVerificationTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">MotorsClassTest: set Classic Verification Test<br/>MotorsClassTest: set Classic Test</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">homeTest.MotorsClassTest#setMotorCycleVerificationTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">MotorsClassTest: set Motor Cycle Verification Test<br/>MotorsClassTest: set Motor Cycles Test</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">homeTest.MotorsClassTest#setMotorCyclesTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">MotorsClassTest: set Motor Cycles Test</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">regressionTest.IFrameClassTest#setIFrameTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">IFrameClassTest: set I Frame Test</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">regressionTest.NewWindowClassTest#newWindowTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">NewWindowClassTest: new Window Test<br/>NewWindowClassTest: new Window Test</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">regressionTest.NewWindowClassTest#newWindowVerificationTest</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">NewWindowClassTest: new Window Verification Test<br/>NewWindowClassTest: new Window Verification Test<br/>NewWindowClassTest: new Window Test<br/>NewWindowClassTest: new Window Test</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
